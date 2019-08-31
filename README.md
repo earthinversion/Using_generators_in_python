@@ -59,9 +59,9 @@
 2. The difference between using list or generators is more pronounced when using a comprehension (though generators are still much faster.)
 3. When we need the result of whole array at a time then the amount of time (or memory) taken to create a list or `list(generators)` are almost same.
 
-<img src="results_generators.png" width=250></img>
+<img src="results_generators.png"></img>
 
-<img src="Memory_usage.png" width=250></img>
+<img src="Memory_usage.png"></img>
 
 Overall, generators gives a performance boost not only in execution time but with the memory as well.
 
